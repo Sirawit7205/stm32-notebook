@@ -48,6 +48,10 @@ The back side is a PCB footprint reference guide. Featuring:
  - QFNs 0.5mm pitch (QFN12 to QFN72)
  - More cute ponies
  
+ ## Features - Latch
+ 
+ This board features a pair of 20-pin Slide-Lock FFP Connectors, one on each side. These connectors are there so you can add a 20-pin Same-Side FFC Cable to act as a notebook closing strap.
+ 
  ## Licenses
  
  Hardware is licensed under `SPDX-License-Identifier: Apache-2.0 WITH SHL-2.1`
