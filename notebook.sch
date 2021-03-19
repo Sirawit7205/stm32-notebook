@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "STM32 Notebook"
+Date "2021-03-19"
+Rev "1"
+Comp "Sleepy Pony Labs"
 Comment1 ""
 Comment2 ""
 Comment3 ""

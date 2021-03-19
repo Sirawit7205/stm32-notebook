@@ -56,6 +56,9 @@ The back side is a PCB footprint reference guide. Featuring:
  
  Hardware is licensed under `SPDX-License-Identifier: Apache-2.0 WITH SHL-2.1`
  
+ This project is a certified Open Source Hardware. OSHWA UID TH000006.
+ https://certification.oshwa.org/th000006.html
+ 
  ## Credits
 
  - 3215 Crystal model by Sam Ma: https://grabcad.com/library/crystal-smd-3215-pin2-1
