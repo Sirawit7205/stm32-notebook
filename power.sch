@@ -1,0 +1,1292 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6499EE3A
+P 8900 1750
+AR Path="/6499EE3A" Ref="H?"  Part="1" 
+AR Path="/6499A746/6499EE3A" Ref="H1"  Part="1" 
+F 0 "H1" V 8854 1900 50  0000 L CNN
+F 1 "DATA0" V 8945 1900 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 1750 50  0001 C CNN
+F 3 "~" H 8900 1750 50  0001 C CNN
+	1    8900 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6499EE40
+P 8900 1950
+AR Path="/6499EE40" Ref="H?"  Part="1" 
+AR Path="/6499A746/6499EE40" Ref="H2"  Part="1" 
+F 0 "H2" V 8854 2100 50  0000 L CNN
+F 1 "DATA1" V 8945 2100 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 1950 50  0001 C CNN
+F 3 "~" H 8900 1950 50  0001 C CNN
+	1    8900 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6499EE46
+P 8900 2150
+AR Path="/6499EE46" Ref="H?"  Part="1" 
+AR Path="/6499A746/6499EE46" Ref="H3"  Part="1" 
+F 0 "H3" V 8854 2300 50  0000 L CNN
+F 1 "DATA2" V 8945 2300 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 2150 50  0001 C CNN
+F 3 "~" H 8900 2150 50  0001 C CNN
+	1    8900 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6499EE4C
+P 8900 2350
+AR Path="/6499EE4C" Ref="H?"  Part="1" 
+AR Path="/6499A746/6499EE4C" Ref="H4"  Part="1" 
+F 0 "H4" V 8854 2500 50  0000 L CNN
+F 1 "DATA3" V 8945 2500 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 2350 50  0001 C CNN
+F 3 "~" H 8900 2350 50  0001 C CNN
+	1    8900 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6499EE52
+P 8900 2750
+AR Path="/6499EE52" Ref="H?"  Part="1" 
+AR Path="/6499A746/6499EE52" Ref="H6"  Part="1" 
+F 0 "H6" V 8854 2900 50  0000 L CNN
+F 1 "DATA5" V 8945 2900 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 2750 50  0001 C CNN
+F 3 "~" H 8900 2750 50  0001 C CNN
+	1    8900 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6499EE58
+P 8900 2550
+AR Path="/6499EE58" Ref="H?"  Part="1" 
+AR Path="/6499A746/6499EE58" Ref="H5"  Part="1" 
+F 0 "H5" V 8854 2700 50  0000 L CNN
+F 1 "DATA4" V 8945 2700 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 2550 50  0001 C CNN
+F 3 "~" H 8900 2550 50  0001 C CNN
+	1    8900 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6499EE5E
+P 8900 3150
+AR Path="/6499EE5E" Ref="H?"  Part="1" 
+AR Path="/6499A746/6499EE5E" Ref="H8"  Part="1" 
+F 0 "H8" V 8854 3300 50  0000 L CNN
+F 1 "DATA7" V 8945 3300 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 3150 50  0001 C CNN
+F 3 "~" H 8900 3150 50  0001 C CNN
+	1    8900 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6499EE64
+P 8900 2950
+AR Path="/6499EE64" Ref="H?"  Part="1" 
+AR Path="/6499A746/6499EE64" Ref="H7"  Part="1" 
+F 0 "H7" V 8854 3100 50  0000 L CNN
+F 1 "DATA6" V 8945 3100 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 2950 50  0001 C CNN
+F 3 "~" H 8900 2950 50  0001 C CNN
+	1    8900 2950
+	0    1    1    0   
+$EndComp
+Connection ~ 10150 3000
+Wire Wire Line
+	10150 3250 10150 3000
+Wire Wire Line
+	10100 3250 10150 3250
+Wire Wire Line
+	10150 3000 10150 2900
+Wire Wire Line
+	10100 3000 10150 3000
+Connection ~ 10150 3800
+Wire Wire Line
+	10150 3550 10100 3550
+Wire Wire Line
+	10150 3800 10150 3550
+Wire Wire Line
+	10150 3800 10150 3900
+Wire Wire Line
+	10100 3800 10150 3800
+$Comp
+L power:GND #PWR?
+U 1 1 649A3966
+P 10150 3900
+AR Path="/649A3966" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/649A3966" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 10150 3650 50  0001 C CNN
+F 1 "GND" H 10155 3727 50  0001 C CNN
+F 2 "" H 10150 3900 50  0001 C CNN
+F 3 "" H 10150 3900 50  0001 C CNN
+	1    10150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 649A3972
+P 10000 3000
+AR Path="/649A3972" Ref="H?"  Part="1" 
+AR Path="/6499A746/649A3972" Ref="H18"  Part="1" 
+F 0 "H18" V 9954 3150 50  0000 L CNN
+F 1 "VDDin" V 10045 3150 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 10000 3000 50  0001 C CNN
+F 3 "~" H 10000 3000 50  0001 C CNN
+	1    10000 3000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 649A3978
+P 10000 3250
+AR Path="/649A3978" Ref="H?"  Part="1" 
+AR Path="/6499A746/649A3978" Ref="H19"  Part="1" 
+F 0 "H19" V 9954 3400 50  0000 L CNN
+F 1 "VDDin" V 10045 3400 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 10000 3250 50  0001 C CNN
+F 3 "~" H 10000 3250 50  0001 C CNN
+	1    10000 3250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 649A397E
+P 10000 3550
+AR Path="/649A397E" Ref="H?"  Part="1" 
+AR Path="/6499A746/649A397E" Ref="H20"  Part="1" 
+F 0 "H20" V 9954 3700 50  0000 L CNN
+F 1 "GND" V 10045 3700 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 10000 3550 50  0001 C CNN
+F 3 "~" H 10000 3550 50  0001 C CNN
+	1    10000 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 649A3984
+P 10000 3800
+AR Path="/649A3984" Ref="H?"  Part="1" 
+AR Path="/6499A746/649A3984" Ref="H21"  Part="1" 
+F 0 "H21" V 9954 3950 50  0000 L CNN
+F 1 "GND" V 10045 3950 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 10000 3800 50  0001 C CNN
+F 3 "~" H 10000 3800 50  0001 C CNN
+	1    10000 3800
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 649A3990
+P 2500 2050
+AR Path="/649A3990" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/649A3990" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 2500 1800 50  0001 C CNN
+F 1 "GND" H 2505 1877 50  0001 C CNN
+F 2 "" H 2500 2050 50  0001 C CNN
+F 3 "" H 2500 2050 50  0001 C CNN
+	1    2500 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1950 2500 2000
+Wire Wire Line
+	2000 1750 1950 1750
+Wire Wire Line
+	1950 1750 1950 2000
+Wire Wire Line
+	1950 2000 2500 2000
+Connection ~ 2500 2000
+Wire Wire Line
+	2500 2000 2500 2050
+$Comp
+L Device:L L?
+U 1 1 649A399C
+P 3300 1750
+AR Path="/649A399C" Ref="L?"  Part="1" 
+AR Path="/6499A746/649A399C" Ref="L1"  Part="1" 
+F 0 "L1" V 3490 1750 50  0000 C CNN
+F 1 "33uH" V 3399 1750 50  0000 C CNN
+F 2 "Inductor_SMD:L_12x12mm_H8mm" H 3300 1750 50  0001 C CNN
+F 3 "~" H 3300 1750 50  0001 C CNN
+	1    3300 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 1750 3050 1750
+Wire Wire Line
+	3000 1550 3050 1550
+Wire Wire Line
+	3050 1550 3050 1500
+Wire Wire Line
+	3050 1500 3450 1500
+Wire Wire Line
+	3450 1500 3450 1750
+$Comp
+L Device:D_Small D?
+U 1 1 649A39A7
+P 3050 1900
+AR Path="/649A39A7" Ref="D?"  Part="1" 
+AR Path="/6499A746/649A39A7" Ref="D8"  Part="1" 
+F 0 "D8" V 3004 1970 50  0000 L CNN
+F 1 "SS34" V 3095 1970 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" V 3050 1900 50  0001 C CNN
+F 3 "~" V 3050 1900 50  0001 C CNN
+	1    3050 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 649A39AD
+P 3050 2050
+AR Path="/649A39AD" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/649A39AD" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 3050 1800 50  0001 C CNN
+F 1 "GND" H 3055 1877 50  0001 C CNN
+F 2 "" H 3050 2050 50  0001 C CNN
+F 3 "" H 3050 2050 50  0001 C CNN
+	1    3050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1750 3050 1800
+Connection ~ 3050 1750
+Wire Wire Line
+	3050 1750 3150 1750
+Wire Wire Line
+	3050 2000 3050 2050
+$Comp
+L Device:CP C?
+U 1 1 649A39B7
+P 1100 1800
+AR Path="/649A39B7" Ref="C?"  Part="1" 
+AR Path="/6499A746/649A39B7" Ref="C9"  Part="1" 
+F 0 "C9" H 1218 1846 50  0000 L CNN
+F 1 "220uF" H 1218 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 1138 1650 50  0001 C CNN
+F 3 "~" H 1100 1800 50  0001 C CNN
+	1    1100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 649A39BD
+P 1100 2050
+AR Path="/649A39BD" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/649A39BD" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 1100 1800 50  0001 C CNN
+F 1 "GND" H 1105 1877 50  0001 C CNN
+F 2 "" H 1100 2050 50  0001 C CNN
+F 3 "" H 1100 2050 50  0001 C CNN
+	1    1100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 649A39C3
+P 3650 2050
+AR Path="/649A39C3" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/649A39C3" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 3650 1800 50  0001 C CNN
+F 1 "GND" H 3655 1877 50  0001 C CNN
+F 2 "" H 3650 2050 50  0001 C CNN
+F 3 "" H 3650 2050 50  0001 C CNN
+	1    3650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 649A39C9
+P 3650 1800
+AR Path="/649A39C9" Ref="C?"  Part="1" 
+AR Path="/6499A746/649A39C9" Ref="C11"  Part="1" 
+F 0 "C11" H 3768 1846 50  0000 L CNN
+F 1 "220uF" H 3768 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 3688 1650 50  0001 C CNN
+F 3 "~" H 3650 1800 50  0001 C CNN
+	1    3650 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1500 3650 1500
+Wire Wire Line
+	3650 1500 3650 1650
+Connection ~ 3450 1500
+Wire Wire Line
+	1100 1450 1100 1550
+Connection ~ 1100 1550
+Wire Wire Line
+	1100 1550 1100 1650
+Wire Wire Line
+	1100 1950 1100 2000
+Wire Wire Line
+	3650 1950 3650 2000
+$Comp
+L power:VDD #PWR?
+U 1 1 649A39DD
+P 1100 1450
+AR Path="/649A39DD" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/649A39DD" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 1100 1300 50  0001 C CNN
+F 1 "VDD" H 1115 1623 50  0000 C CNN
+F 2 "" H 1100 1450 50  0001 C CNN
+F 3 "" H 1100 1450 50  0001 C CNN
+	1    1100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 649A39E3
+P 1550 1800
+AR Path="/649A39E3" Ref="C?"  Part="1" 
+AR Path="/6499A746/649A39E3" Ref="C10"  Part="1" 
+F 0 "C10" H 1665 1846 50  0000 L CNN
+F 1 "100nF" H 1665 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1588 1650 50  0001 C CNN
+F 3 "~" H 1550 1800 50  0001 C CNN
+	1    1550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 649A39E9
+P 4100 1800
+AR Path="/649A39E9" Ref="C?"  Part="1" 
+AR Path="/6499A746/649A39E9" Ref="C12"  Part="1" 
+F 0 "C12" H 4215 1846 50  0000 L CNN
+F 1 "100nF" H 4215 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4138 1650 50  0001 C CNN
+F 3 "~" H 4100 1800 50  0001 C CNN
+	1    4100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1550 1550 1550
+Wire Wire Line
+	1550 1550 1550 1650
+Connection ~ 1550 1550
+Wire Wire Line
+	1550 1550 2000 1550
+Wire Wire Line
+	1550 1950 1550 2000
+Wire Wire Line
+	1550 2000 1100 2000
+Connection ~ 1100 2000
+Wire Wire Line
+	1100 2000 1100 2050
+Wire Wire Line
+	3650 1500 4100 1500
+Wire Wire Line
+	4100 1500 4100 1450
+Connection ~ 3650 1500
+Wire Wire Line
+	4100 1500 4100 1650
+Connection ~ 4100 1500
+Wire Wire Line
+	3650 2000 4100 2000
+Wire Wire Line
+	4100 2000 4100 1950
+Connection ~ 3650 2000
+Wire Wire Line
+	3650 2000 3650 2050
+$Comp
+L power:+5V #PWR073
+U 1 1 649A8E7E
+P 4100 1450
+F 0 "#PWR073" H 4100 1300 50  0001 C CNN
+F 1 "+5V" H 4115 1623 50  0000 C CNN
+F 2 "" H 4100 1450 50  0001 C CNN
+F 3 "" H 4100 1450 50  0001 C CNN
+	1    4100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:LM2596S-5 U38
+U 1 1 649AA171
+P 2500 1650
+F 0 "U38" H 2500 2017 50  0000 C CNN
+F 1 "LM2596S-5" H 2500 1926 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 2550 1400 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 2500 1650 50  0001 C CNN
+	1    2500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 63D9E632
+P 1100 3750
+F 0 "C13" H 1215 3796 50  0000 L CNN
+F 1 "100nF" H 1215 3705 50  0000 L CNN
+F 2 "" H 1138 3600 50  0001 C CNN
+F 3 "~" H 1100 3750 50  0001 C CNN
+	1    1100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 63D9F0C0
+P 2600 3750
+F 0 "C16" H 2715 3796 50  0000 L CNN
+F 1 "100nF" H 2715 3705 50  0000 L CNN
+F 2 "" H 2638 3600 50  0001 C CNN
+F 3 "~" H 2600 3750 50  0001 C CNN
+	1    2600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 63D9FCDD
+P 4100 3750
+F 0 "C19" H 4215 3796 50  0000 L CNN
+F 1 "100nF" H 4215 3705 50  0000 L CNN
+F 2 "" H 4138 3600 50  0001 C CNN
+F 3 "~" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 63D9FCE3
+P 5600 3750
+F 0 "C22" H 5715 3796 50  0000 L CNN
+F 1 "100nF" H 5715 3705 50  0000 L CNN
+F 2 "" H 5638 3600 50  0001 C CNN
+F 3 "~" H 5600 3750 50  0001 C CNN
+	1    5600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 63DA1A5C
+P 2100 4700
+F 0 "C25" H 2215 4746 50  0000 L CNN
+F 1 "100nF" H 2215 4655 50  0000 L CNN
+F 2 "" H 2138 4550 50  0001 C CNN
+F 3 "~" H 2100 4700 50  0001 C CNN
+	1    2100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 63DA1A62
+P 3600 4700
+F 0 "C28" H 3715 4746 50  0000 L CNN
+F 1 "100nF" H 3715 4655 50  0000 L CNN
+F 2 "" H 3638 4550 50  0001 C CNN
+F 3 "~" H 3600 4700 50  0001 C CNN
+	1    3600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C30
+U 1 1 63DA1A68
+P 4600 4700
+F 0 "C30" H 4715 4746 50  0000 L CNN
+F 1 "100nF" H 4715 4655 50  0000 L CNN
+F 2 "" H 4638 4550 50  0001 C CNN
+F 3 "~" H 4600 4700 50  0001 C CNN
+	1    4600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C32
+U 1 1 63DA1A6E
+P 5600 4700
+F 0 "C32" H 5715 4746 50  0000 L CNN
+F 1 "100nF" H 5715 4655 50  0000 L CNN
+F 2 "" H 5638 4550 50  0001 C CNN
+F 3 "~" H 5600 4700 50  0001 C CNN
+	1    5600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C34
+U 1 1 63DA2AAD
+P 1600 5650
+F 0 "C34" H 1715 5696 50  0000 L CNN
+F 1 "100nF" H 1715 5605 50  0000 L CNN
+F 2 "" H 1638 5500 50  0001 C CNN
+F 3 "~" H 1600 5650 50  0001 C CNN
+	1    1600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 63DA2AB3
+P 2600 5650
+F 0 "C36" H 2715 5696 50  0000 L CNN
+F 1 "100nF" H 2715 5605 50  0000 L CNN
+F 2 "" H 2638 5500 50  0001 C CNN
+F 3 "~" H 2600 5650 50  0001 C CNN
+	1    2600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR081
+U 1 1 63DA3E49
+P 1100 3500
+F 0 "#PWR081" H 1100 3350 50  0001 C CNN
+F 1 "+5V" H 1115 3673 50  0000 C CNN
+F 2 "" H 1100 3500 50  0001 C CNN
+F 3 "" H 1100 3500 50  0001 C CNN
+	1    1100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63DA420D
+P 1100 4000
+AR Path="/63DA420D" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/63DA420D" Ref="#PWR082"  Part="1" 
+F 0 "#PWR082" H 1100 3750 50  0001 C CNN
+F 1 "GND" H 1105 3827 50  0001 C CNN
+F 2 "" H 1100 4000 50  0001 C CNN
+F 3 "" H 1100 4000 50  0001 C CNN
+	1    1100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3600 5600 3550
+Wire Wire Line
+	5600 3550 5100 3550
+Wire Wire Line
+	1100 3550 1100 3500
+Wire Wire Line
+	1100 3550 1100 3600
+Connection ~ 1100 3550
+Wire Wire Line
+	1100 4000 1100 3950
+Wire Wire Line
+	1100 3950 1600 3950
+Wire Wire Line
+	5600 3950 5600 3900
+Wire Wire Line
+	1100 3900 1100 3950
+Connection ~ 1100 3950
+Wire Wire Line
+	1600 3550 1600 3600
+Connection ~ 1600 3550
+Wire Wire Line
+	1600 3550 1100 3550
+Wire Wire Line
+	1600 3900 1600 3950
+Connection ~ 1600 3950
+Wire Wire Line
+	1600 3950 2100 3950
+Wire Wire Line
+	2100 3550 2100 3600
+Connection ~ 2100 3550
+Wire Wire Line
+	2100 3550 1600 3550
+Wire Wire Line
+	2100 3900 2100 3950
+Connection ~ 2100 3950
+Wire Wire Line
+	2100 3950 2600 3950
+Wire Wire Line
+	2600 3550 2600 3600
+Connection ~ 2600 3550
+Wire Wire Line
+	2600 3550 2100 3550
+Wire Wire Line
+	2600 3900 2600 3950
+Connection ~ 2600 3950
+Wire Wire Line
+	2600 3950 3100 3950
+Wire Wire Line
+	3100 3550 3100 3600
+Connection ~ 3100 3550
+Wire Wire Line
+	3100 3550 2600 3550
+Wire Wire Line
+	3100 3900 3100 3950
+Connection ~ 3100 3950
+Wire Wire Line
+	3100 3950 3600 3950
+Wire Wire Line
+	3600 3550 3600 3600
+Connection ~ 3600 3550
+Wire Wire Line
+	3600 3550 3100 3550
+Wire Wire Line
+	3600 3900 3600 3950
+Connection ~ 3600 3950
+Wire Wire Line
+	3600 3950 4100 3950
+Wire Wire Line
+	4100 3550 4100 3600
+Connection ~ 4100 3550
+Wire Wire Line
+	4100 3550 3600 3550
+Wire Wire Line
+	4100 3900 4100 3950
+Connection ~ 4100 3950
+Wire Wire Line
+	4100 3950 4600 3950
+Wire Wire Line
+	4600 3550 4600 3600
+Connection ~ 4600 3550
+Wire Wire Line
+	4600 3550 4100 3550
+Wire Wire Line
+	4600 3900 4600 3950
+Connection ~ 4600 3950
+Wire Wire Line
+	4600 3950 5100 3950
+Wire Wire Line
+	5100 3550 5100 3600
+Connection ~ 5100 3550
+Wire Wire Line
+	5100 3550 4600 3550
+Wire Wire Line
+	5100 3900 5100 3950
+Connection ~ 5100 3950
+Wire Wire Line
+	5100 3950 5600 3950
+$Comp
+L Device:C C14
+U 1 1 63DBD67F
+P 1600 3750
+F 0 "C14" H 1715 3796 50  0000 L CNN
+F 1 "100nF" H 1715 3705 50  0000 L CNN
+F 2 "" H 1638 3600 50  0001 C CNN
+F 3 "~" H 1600 3750 50  0001 C CNN
+	1    1600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 63DBD685
+P 3100 3750
+F 0 "C17" H 3215 3796 50  0000 L CNN
+F 1 "100nF" H 3215 3705 50  0000 L CNN
+F 2 "" H 3138 3600 50  0001 C CNN
+F 3 "~" H 3100 3750 50  0001 C CNN
+	1    3100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 63DBD68B
+P 4600 3750
+F 0 "C20" H 4715 3796 50  0000 L CNN
+F 1 "100nF" H 4715 3705 50  0000 L CNN
+F 2 "" H 4638 3600 50  0001 C CNN
+F 3 "~" H 4600 3750 50  0001 C CNN
+	1    4600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 63DBD691
+P 1100 4700
+F 0 "C23" H 1215 4746 50  0000 L CNN
+F 1 "100nF" H 1215 4655 50  0000 L CNN
+F 2 "" H 1138 4550 50  0001 C CNN
+F 3 "~" H 1100 4700 50  0001 C CNN
+	1    1100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 63DBD697
+P 2600 4700
+F 0 "C26" H 2715 4746 50  0000 L CNN
+F 1 "100nF" H 2715 4655 50  0000 L CNN
+F 2 "" H 2638 4550 50  0001 C CNN
+F 3 "~" H 2600 4700 50  0001 C CNN
+	1    2600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 63DBD69D
+P 4100 4700
+F 0 "C29" H 4215 4746 50  0000 L CNN
+F 1 "100nF" H 4215 4655 50  0000 L CNN
+F 2 "" H 4138 4550 50  0001 C CNN
+F 3 "~" H 4100 4700 50  0001 C CNN
+	1    4100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C31
+U 1 1 63DBD6A3
+P 5100 4700
+F 0 "C31" H 5215 4746 50  0000 L CNN
+F 1 "100nF" H 5215 4655 50  0000 L CNN
+F 2 "" H 5138 4550 50  0001 C CNN
+F 3 "~" H 5100 4700 50  0001 C CNN
+	1    5100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 63DBD6A9
+P 1100 5650
+F 0 "C33" H 1215 5696 50  0000 L CNN
+F 1 "100nF" H 1215 5605 50  0000 L CNN
+F 2 "" H 1138 5500 50  0001 C CNN
+F 3 "~" H 1100 5650 50  0001 C CNN
+	1    1100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C35
+U 1 1 63DBD6AF
+P 2100 5650
+F 0 "C35" H 2215 5696 50  0000 L CNN
+F 1 "100nF" H 2215 5605 50  0000 L CNN
+F 2 "" H 2138 5500 50  0001 C CNN
+F 3 "~" H 2100 5650 50  0001 C CNN
+	1    2100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C37
+U 1 1 63DBD6B5
+P 3100 5650
+F 0 "C37" H 3215 5696 50  0000 L CNN
+F 1 "100nF" H 3215 5605 50  0000 L CNN
+F 2 "" H 3138 5500 50  0001 C CNN
+F 3 "~" H 3100 5650 50  0001 C CNN
+	1    3100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR083
+U 1 1 63DBD6BB
+P 1100 4450
+F 0 "#PWR083" H 1100 4300 50  0001 C CNN
+F 1 "+5V" H 1115 4623 50  0000 C CNN
+F 2 "" H 1100 4450 50  0001 C CNN
+F 3 "" H 1100 4450 50  0001 C CNN
+	1    1100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63DBD6C1
+P 1100 4950
+AR Path="/63DBD6C1" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/63DBD6C1" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 1100 4700 50  0001 C CNN
+F 1 "GND" H 1105 4777 50  0001 C CNN
+F 2 "" H 1100 4950 50  0001 C CNN
+F 3 "" H 1100 4950 50  0001 C CNN
+	1    1100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4550 5600 4500
+Wire Wire Line
+	5600 4500 5100 4500
+Wire Wire Line
+	1100 4500 1100 4450
+Wire Wire Line
+	1100 4500 1100 4550
+Connection ~ 1100 4500
+Wire Wire Line
+	1100 4950 1100 4900
+Wire Wire Line
+	1100 4900 1600 4900
+Wire Wire Line
+	5600 4900 5600 4850
+Wire Wire Line
+	1100 4850 1100 4900
+Connection ~ 1100 4900
+Wire Wire Line
+	1600 4500 1600 4550
+Connection ~ 1600 4500
+Wire Wire Line
+	1600 4500 1100 4500
+Wire Wire Line
+	1600 4850 1600 4900
+Connection ~ 1600 4900
+Wire Wire Line
+	1600 4900 2100 4900
+Wire Wire Line
+	2100 4500 2100 4550
+Connection ~ 2100 4500
+Wire Wire Line
+	2100 4500 1600 4500
+Wire Wire Line
+	2100 4850 2100 4900
+Connection ~ 2100 4900
+Wire Wire Line
+	2100 4900 2600 4900
+Wire Wire Line
+	2600 4500 2600 4550
+Connection ~ 2600 4500
+Wire Wire Line
+	2600 4500 2100 4500
+Wire Wire Line
+	2600 4850 2600 4900
+Connection ~ 2600 4900
+Wire Wire Line
+	2600 4900 3100 4900
+Wire Wire Line
+	3100 4500 3100 4550
+Connection ~ 3100 4500
+Wire Wire Line
+	3100 4500 2600 4500
+Wire Wire Line
+	3100 4850 3100 4900
+Connection ~ 3100 4900
+Wire Wire Line
+	3100 4900 3600 4900
+Wire Wire Line
+	3600 4500 3600 4550
+Connection ~ 3600 4500
+Wire Wire Line
+	3600 4500 3100 4500
+Wire Wire Line
+	3600 4850 3600 4900
+Connection ~ 3600 4900
+Wire Wire Line
+	3600 4900 4100 4900
+Wire Wire Line
+	4100 4500 4100 4550
+Connection ~ 4100 4500
+Wire Wire Line
+	4100 4500 3600 4500
+Wire Wire Line
+	4100 4850 4100 4900
+Connection ~ 4100 4900
+Wire Wire Line
+	4100 4900 4600 4900
+Wire Wire Line
+	4600 4500 4600 4550
+Connection ~ 4600 4500
+Wire Wire Line
+	4600 4500 4100 4500
+Wire Wire Line
+	4600 4850 4600 4900
+Connection ~ 4600 4900
+Wire Wire Line
+	4600 4900 5100 4900
+Wire Wire Line
+	5100 4500 5100 4550
+Connection ~ 5100 4500
+Wire Wire Line
+	5100 4500 4600 4500
+Wire Wire Line
+	5100 4850 5100 4900
+Connection ~ 5100 4900
+Wire Wire Line
+	5100 4900 5600 4900
+$Comp
+L Device:C C15
+U 1 1 63DC45CC
+P 2100 3750
+F 0 "C15" H 2215 3796 50  0000 L CNN
+F 1 "100nF" H 2215 3705 50  0000 L CNN
+F 2 "" H 2138 3600 50  0001 C CNN
+F 3 "~" H 2100 3750 50  0001 C CNN
+	1    2100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 63DC45D2
+P 3600 3750
+F 0 "C18" H 3715 3796 50  0000 L CNN
+F 1 "100nF" H 3715 3705 50  0000 L CNN
+F 2 "" H 3638 3600 50  0001 C CNN
+F 3 "~" H 3600 3750 50  0001 C CNN
+	1    3600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 63DC45D8
+P 5100 3750
+F 0 "C21" H 5215 3796 50  0000 L CNN
+F 1 "100nF" H 5215 3705 50  0000 L CNN
+F 2 "" H 5138 3600 50  0001 C CNN
+F 3 "~" H 5100 3750 50  0001 C CNN
+	1    5100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 63DC45DE
+P 1600 4700
+F 0 "C24" H 1715 4746 50  0000 L CNN
+F 1 "100nF" H 1715 4655 50  0000 L CNN
+F 2 "" H 1638 4550 50  0001 C CNN
+F 3 "~" H 1600 4700 50  0001 C CNN
+	1    1600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 63DC45E4
+P 3100 4700
+F 0 "C27" H 3215 4746 50  0000 L CNN
+F 1 "100nF" H 3215 4655 50  0000 L CNN
+F 2 "" H 3138 4550 50  0001 C CNN
+F 3 "~" H 3100 4700 50  0001 C CNN
+	1    3100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR085
+U 1 1 63DC4608
+P 1100 5400
+F 0 "#PWR085" H 1100 5250 50  0001 C CNN
+F 1 "+5V" H 1115 5573 50  0000 C CNN
+F 2 "" H 1100 5400 50  0001 C CNN
+F 3 "" H 1100 5400 50  0001 C CNN
+	1    1100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63DC460E
+P 1100 5900
+AR Path="/63DC460E" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/63DC460E" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 1100 5650 50  0001 C CNN
+F 1 "GND" H 1105 5727 50  0001 C CNN
+F 2 "" H 1100 5900 50  0001 C CNN
+F 3 "" H 1100 5900 50  0001 C CNN
+	1    1100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 5450 1100 5400
+Wire Wire Line
+	1100 5450 1100 5500
+Connection ~ 1100 5450
+Wire Wire Line
+	1100 5900 1100 5850
+Wire Wire Line
+	1100 5850 1600 5850
+Wire Wire Line
+	1100 5800 1100 5850
+Connection ~ 1100 5850
+Wire Wire Line
+	1600 5450 1600 5500
+Connection ~ 1600 5450
+Wire Wire Line
+	1600 5450 1100 5450
+Wire Wire Line
+	1600 5800 1600 5850
+Connection ~ 1600 5850
+Wire Wire Line
+	1600 5850 2100 5850
+Wire Wire Line
+	2100 5450 2100 5500
+Connection ~ 2100 5450
+Wire Wire Line
+	2100 5450 1600 5450
+Wire Wire Line
+	2100 5800 2100 5850
+Connection ~ 2100 5850
+Wire Wire Line
+	2100 5850 2600 5850
+Wire Wire Line
+	2600 5450 2600 5500
+Connection ~ 2600 5450
+Wire Wire Line
+	2600 5450 2100 5450
+Wire Wire Line
+	2600 5800 2600 5850
+Connection ~ 2600 5850
+Wire Wire Line
+	2600 5850 3100 5850
+Wire Wire Line
+	3100 5450 3100 5500
+Wire Wire Line
+	3100 5450 2600 5450
+Wire Wire Line
+	3100 5800 3100 5850
+Text Notes 4750 5700 0    50   ~ 0
+Decoupling Capacitor
+Text Notes 2200 2350 0    50   ~ 0
+Buck Converter
+$Comp
+L power:VDD #PWR?
+U 1 1 63EE3C1A
+P 10150 2900
+AR Path="/63EE3C1A" Ref="#PWR?"  Part="1" 
+AR Path="/6499A746/63EE3C1A" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 10150 2750 50  0001 C CNN
+F 1 "VDD" H 10165 3073 50  0000 C CNN
+F 2 "" H 10150 2900 50  0001 C CNN
+F 3 "" H 10150 2900 50  0001 C CNN
+	1    10150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63F407CE
+P 8900 3550
+AR Path="/63F407CE" Ref="H?"  Part="1" 
+AR Path="/6499A746/63F407CE" Ref="H9"  Part="1" 
+F 0 "H9" V 8854 3700 50  0000 L CNN
+F 1 "ENA0" V 8945 3700 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 3550 50  0001 C CNN
+F 3 "~" H 8900 3550 50  0001 C CNN
+	1    8900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63F40BA2
+P 8900 3750
+AR Path="/63F40BA2" Ref="H?"  Part="1" 
+AR Path="/6499A746/63F40BA2" Ref="H10"  Part="1" 
+F 0 "H10" V 8854 3900 50  0000 L CNN
+F 1 "ENA1" V 8945 3900 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 3750 50  0001 C CNN
+F 3 "~" H 8900 3750 50  0001 C CNN
+	1    8900 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63F40BAC
+P 8900 3950
+AR Path="/63F40BAC" Ref="H?"  Part="1" 
+AR Path="/6499A746/63F40BAC" Ref="H11"  Part="1" 
+F 0 "H11" V 8854 4100 50  0000 L CNN
+F 1 "ENA2" V 8945 4100 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 3950 50  0001 C CNN
+F 3 "~" H 8900 3950 50  0001 C CNN
+	1    8900 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63F40BB6
+P 8900 4150
+AR Path="/63F40BB6" Ref="H?"  Part="1" 
+AR Path="/6499A746/63F40BB6" Ref="H12"  Part="1" 
+F 0 "H12" V 8854 4300 50  0000 L CNN
+F 1 "ENA3" V 8945 4300 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 4150 50  0001 C CNN
+F 3 "~" H 8900 4150 50  0001 C CNN
+	1    8900 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63F40BC0
+P 8900 4550
+AR Path="/63F40BC0" Ref="H?"  Part="1" 
+AR Path="/6499A746/63F40BC0" Ref="H14"  Part="1" 
+F 0 "H14" V 8854 4700 50  0000 L CNN
+F 1 "ENA5" V 8945 4700 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 4550 50  0001 C CNN
+F 3 "~" H 8900 4550 50  0001 C CNN
+	1    8900 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63F40BCA
+P 8900 4350
+AR Path="/63F40BCA" Ref="H?"  Part="1" 
+AR Path="/6499A746/63F40BCA" Ref="H13"  Part="1" 
+F 0 "H13" V 8854 4500 50  0000 L CNN
+F 1 "ENA4" V 8945 4500 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 4350 50  0001 C CNN
+F 3 "~" H 8900 4350 50  0001 C CNN
+	1    8900 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63F40BD4
+P 8900 4950
+AR Path="/63F40BD4" Ref="H?"  Part="1" 
+AR Path="/6499A746/63F40BD4" Ref="H16"  Part="1" 
+F 0 "H16" V 8854 5100 50  0000 L CNN
+F 1 "ENA7" V 8945 5100 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 4950 50  0001 C CNN
+F 3 "~" H 8900 4950 50  0001 C CNN
+	1    8900 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63F40BDE
+P 8900 4750
+AR Path="/63F40BDE" Ref="H?"  Part="1" 
+AR Path="/6499A746/63F40BDE" Ref="H15"  Part="1" 
+F 0 "H15" V 8854 4900 50  0000 L CNN
+F 1 "ENA6" V 8945 4900 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 4750 50  0001 C CNN
+F 3 "~" H 8900 4750 50  0001 C CNN
+	1    8900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63F48442
+P 8900 5350
+AR Path="/63F48442" Ref="H?"  Part="1" 
+AR Path="/6499A746/63F48442" Ref="H17"  Part="1" 
+F 0 "H17" V 8854 5500 50  0000 L CNN
+F 1 "DCLK" V 8945 5500 50  0000 L CNN
+F 2 "notebook:MountingHole_4mm_Pad_Thin" H 8900 5350 50  0001 C CNN
+F 3 "~" H 8900 5350 50  0001 C CNN
+	1    8900 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 1750 8550 1750
+Wire Wire Line
+	8800 1950 8550 1950
+Wire Wire Line
+	8800 2150 8550 2150
+Wire Wire Line
+	8800 2350 8550 2350
+Wire Wire Line
+	8800 2550 8550 2550
+Wire Wire Line
+	8800 2750 8550 2750
+Wire Wire Line
+	8800 2950 8550 2950
+Wire Wire Line
+	8800 3150 8550 3150
+Wire Wire Line
+	8800 3550 8550 3550
+Wire Wire Line
+	8800 3750 8550 3750
+Wire Wire Line
+	8800 3950 8550 3950
+Wire Wire Line
+	8800 4150 8550 4150
+Wire Wire Line
+	8800 4350 8550 4350
+Wire Wire Line
+	8800 4550 8550 4550
+Wire Wire Line
+	8800 4750 8550 4750
+Wire Wire Line
+	8800 4950 8550 4950
+Wire Wire Line
+	8800 5350 8550 5350
+Text HLabel 8550 5350 0    50   Input ~ 0
+DCLK
+Entry Wire Line
+	8450 4850 8550 4950
+Entry Wire Line
+	8450 4650 8550 4750
+Entry Wire Line
+	8450 4450 8550 4550
+Entry Wire Line
+	8450 4250 8550 4350
+Entry Wire Line
+	8450 4050 8550 4150
+Entry Wire Line
+	8450 3850 8550 3950
+Entry Wire Line
+	8450 3650 8550 3750
+Entry Wire Line
+	8450 3450 8550 3550
+Entry Wire Line
+	8450 3050 8550 3150
+Entry Wire Line
+	8450 2850 8550 2950
+Entry Wire Line
+	8450 2650 8550 2750
+Entry Wire Line
+	8450 2450 8550 2550
+Entry Wire Line
+	8450 2250 8550 2350
+Entry Wire Line
+	8450 2050 8550 2150
+Entry Wire Line
+	8450 1850 8550 1950
+Entry Wire Line
+	8450 1650 8550 1750
+Wire Bus Line
+	8450 1650 8000 1650
+Wire Bus Line
+	8450 3450 8000 3450
+Text Label 8050 3450 0    50   ~ 0
+~OE[0..7]
+Text Label 8050 1650 0    50   ~ 0
+D[0..7]
+Text HLabel 8000 1650 0    50   Input ~ 0
+D[0..7]
+Text HLabel 8000 3450 0    50   Input ~ 0
+~OE[0..7]
+Text Notes 9650 4350 0    50   ~ 0
+Edge Connectors
+$Comp
+L Device:C C38
+U 1 1 63ECE413
+P 3600 5650
+F 0 "C38" H 3715 5696 50  0000 L CNN
+F 1 "100nF" H 3715 5605 50  0000 L CNN
+F 2 "" H 3638 5500 50  0001 C CNN
+F 3 "~" H 3600 5650 50  0001 C CNN
+	1    3600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 63ECE869
+P 4100 5650
+F 0 "C39" H 4215 5696 50  0000 L CNN
+F 1 "100nF" H 4215 5605 50  0000 L CNN
+F 2 "" H 4138 5500 50  0001 C CNN
+F 3 "~" H 4100 5650 50  0001 C CNN
+	1    4100 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5850 3600 5850
+Wire Wire Line
+	3600 5450 3600 5500
+Connection ~ 3600 5450
+Wire Wire Line
+	3600 5450 3100 5450
+Wire Wire Line
+	3600 5800 3600 5850
+Connection ~ 3600 5850
+Wire Wire Line
+	3600 5850 4100 5850
+Wire Wire Line
+	4100 5450 4100 5500
+Wire Wire Line
+	4100 5450 3600 5450
+Wire Wire Line
+	4100 5800 4100 5850
+Connection ~ 3100 5450
+Connection ~ 3100 5850
+Wire Bus Line
+	8450 3450 8450 4850
+Wire Bus Line
+	8450 1650 8450 3050
+$EndSCHEMATC

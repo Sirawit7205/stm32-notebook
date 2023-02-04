@@ -1,0 +1,541 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:NE555D U2
+U 1 1 63E657F4
+P 2200 3650
+F 0 "U2" H 2200 4231 50  0000 C CNN
+F 1 "NE555D" H 2200 4140 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 3250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 3050 3250 50  0001 C CNN
+	1    2200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 63E67531
+P 1300 4000
+F 0 "C3" H 1392 4046 50  0000 L CNN
+F 1 "10nF" H 1392 3955 50  0000 L CNN
+F 2 "" H 1300 4000 50  0001 C CNN
+F 3 "~" H 1300 4000 50  0001 C CNN
+	1    1300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 63E67B29
+P 2850 3750
+F 0 "R4" H 2909 3796 50  0000 L CNN
+F 1 "4k7" H 2909 3705 50  0000 L CNN
+F 2 "" H 2850 3750 50  0001 C CNN
+F 3 "~" H 2850 3750 50  0001 C CNN
+	1    2850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 63E67FC8
+P 2550 3250
+F 0 "#PWR07" H 2550 3100 50  0001 C CNN
+F 1 "+5V" H 2565 3423 50  0000 C CNN
+F 2 "" H 2550 3250 50  0001 C CNN
+F 3 "" H 2550 3250 50  0001 C CNN
+	1    2550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 63E683FA
+P 2850 4200
+F 0 "#PWR010" H 2850 3950 50  0001 C CNN
+F 1 "GND" H 2855 4027 50  0001 C CNN
+F 2 "" H 2850 4200 50  0001 C CNN
+F 3 "" H 2850 4200 50  0001 C CNN
+	1    2850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 63E68832
+P 2850 4050
+F 0 "C4" H 2942 4096 50  0000 L CNN
+F 1 "10uF" H 2942 4005 50  0000 L CNN
+F 2 "" H 2850 4050 50  0001 C CNN
+F 3 "~" H 2850 4050 50  0001 C CNN
+	1    2850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 63E6962A
+P 2850 3250
+F 0 "R3" H 2909 3296 50  0000 L CNN
+F 1 "4k7" H 2909 3205 50  0000 L CNN
+F 2 "" H 2850 3250 50  0001 C CNN
+F 3 "~" H 2850 3250 50  0001 C CNN
+	1    2850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 63E6A544
+P 2200 4200
+F 0 "#PWR09" H 2200 3950 50  0001 C CNN
+F 1 "GND" H 2205 4027 50  0001 C CNN
+F 2 "" H 2200 4200 50  0001 C CNN
+F 3 "" H 2200 4200 50  0001 C CNN
+	1    2200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 63E6BE50
+P 1300 4200
+F 0 "#PWR08" H 1300 3950 50  0001 C CNN
+F 1 "GND" H 1305 4027 50  0001 C CNN
+F 2 "" H 1300 4200 50  0001 C CNN
+F 3 "" H 1300 4200 50  0001 C CNN
+	1    1300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3900 1300 3650
+Wire Wire Line
+	1300 3650 1700 3650
+Wire Wire Line
+	1300 4100 1300 4200
+Wire Wire Line
+	1700 3850 1650 3850
+Wire Wire Line
+	1650 3850 1650 3250
+Wire Wire Line
+	1650 3250 2200 3250
+Wire Wire Line
+	2200 3250 2550 3250
+Connection ~ 2200 3250
+$Comp
+L power:+5V #PWR06
+U 1 1 63E6CABC
+P 2850 3100
+F 0 "#PWR06" H 2850 2950 50  0001 C CNN
+F 1 "+5V" H 2865 3273 50  0000 C CNN
+F 2 "" H 2850 3100 50  0001 C CNN
+F 3 "" H 2850 3100 50  0001 C CNN
+	1    2850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3100 2850 3150
+Wire Wire Line
+	2850 3350 2850 3650
+Wire Wire Line
+	2700 3650 2850 3650
+Connection ~ 2850 3650
+Wire Wire Line
+	2700 3850 2750 3850
+Wire Wire Line
+	2850 3950 2850 3850
+Connection ~ 2850 3850
+Wire Wire Line
+	2850 4150 2850 4200
+Wire Wire Line
+	2200 4050 2200 4200
+Wire Wire Line
+	2750 3850 2750 4350
+Wire Wire Line
+	2750 4350 1600 4350
+Wire Wire Line
+	1600 4350 1600 3450
+Wire Wire Line
+	1600 3450 1700 3450
+Connection ~ 2750 3850
+Wire Wire Line
+	2750 3850 2850 3850
+Text HLabel 3200 3450 2    50   Output ~ 0
+10Hz
+Wire Wire Line
+	2700 3450 3200 3450
+$Comp
+L Timer:NE555D U3
+U 1 1 63E6E2BD
+P 2200 5550
+F 0 "U3" H 2200 6131 50  0000 C CNN
+F 1 "NE555D" H 2200 6040 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 3050 5150 50  0001 C CNN
+	1    2200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 63E6E3A7
+P 1300 5900
+F 0 "C5" H 1392 5946 50  0000 L CNN
+F 1 "10nF" H 1392 5855 50  0000 L CNN
+F 2 "" H 1300 5900 50  0001 C CNN
+F 3 "~" H 1300 5900 50  0001 C CNN
+	1    1300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 63E6E3B1
+P 2850 5650
+F 0 "R6" H 2909 5696 50  0000 L CNN
+F 1 "10k" H 2909 5605 50  0000 L CNN
+F 2 "" H 2850 5650 50  0001 C CNN
+F 3 "~" H 2850 5650 50  0001 C CNN
+	1    2850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 63E6E3BB
+P 2550 5150
+F 0 "#PWR012" H 2550 5000 50  0001 C CNN
+F 1 "+5V" H 2565 5323 50  0000 C CNN
+F 2 "" H 2550 5150 50  0001 C CNN
+F 3 "" H 2550 5150 50  0001 C CNN
+	1    2550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 63E6E3C5
+P 2850 6100
+F 0 "#PWR015" H 2850 5850 50  0001 C CNN
+F 1 "GND" H 2855 5927 50  0001 C CNN
+F 2 "" H 2850 6100 50  0001 C CNN
+F 3 "" H 2850 6100 50  0001 C CNN
+	1    2850 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 63E6E3CF
+P 2850 5950
+F 0 "C6" H 2942 5996 50  0000 L CNN
+F 1 "100nF" H 2942 5905 50  0000 L CNN
+F 2 "" H 2850 5950 50  0001 C CNN
+F 3 "~" H 2850 5950 50  0001 C CNN
+	1    2850 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 63E6E3D9
+P 2850 5150
+F 0 "R5" H 2909 5196 50  0000 L CNN
+F 1 "10k" H 2909 5105 50  0000 L CNN
+F 2 "" H 2850 5150 50  0001 C CNN
+F 3 "~" H 2850 5150 50  0001 C CNN
+	1    2850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 63E6E3E3
+P 2200 6100
+F 0 "#PWR014" H 2200 5850 50  0001 C CNN
+F 1 "GND" H 2205 5927 50  0001 C CNN
+F 2 "" H 2200 6100 50  0001 C CNN
+F 3 "" H 2200 6100 50  0001 C CNN
+	1    2200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 63E6E3ED
+P 1300 6100
+F 0 "#PWR013" H 1300 5850 50  0001 C CNN
+F 1 "GND" H 1305 5927 50  0001 C CNN
+F 2 "" H 1300 6100 50  0001 C CNN
+F 3 "" H 1300 6100 50  0001 C CNN
+	1    1300 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5800 1300 5550
+Wire Wire Line
+	1300 5550 1700 5550
+Wire Wire Line
+	1300 6000 1300 6100
+Wire Wire Line
+	1700 5750 1650 5750
+Wire Wire Line
+	1650 5750 1650 5150
+Wire Wire Line
+	1650 5150 2200 5150
+Wire Wire Line
+	2200 5150 2550 5150
+Connection ~ 2200 5150
+$Comp
+L power:+5V #PWR011
+U 1 1 63E6E3FF
+P 2850 5000
+F 0 "#PWR011" H 2850 4850 50  0001 C CNN
+F 1 "+5V" H 2865 5173 50  0000 C CNN
+F 2 "" H 2850 5000 50  0001 C CNN
+F 3 "" H 2850 5000 50  0001 C CNN
+	1    2850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5000 2850 5050
+Wire Wire Line
+	2850 5250 2850 5550
+Wire Wire Line
+	2700 5550 2850 5550
+Connection ~ 2850 5550
+Wire Wire Line
+	2700 5750 2750 5750
+Wire Wire Line
+	2850 5850 2850 5750
+Connection ~ 2850 5750
+Wire Wire Line
+	2850 6050 2850 6100
+Wire Wire Line
+	2200 5950 2200 6100
+Wire Wire Line
+	2750 5750 2750 6250
+Wire Wire Line
+	2750 6250 1600 6250
+Wire Wire Line
+	1600 6250 1600 5350
+Wire Wire Line
+	1600 5350 1700 5350
+Connection ~ 2750 5750
+Wire Wire Line
+	2750 5750 2850 5750
+Text HLabel 3200 5350 2    50   Output ~ 0
+480Hz
+Wire Wire Line
+	2700 5350 3200 5350
+$Comp
+L Timer:NE555D U1
+U 1 1 63E87465
+P 2200 1750
+F 0 "U1" H 2200 2331 50  0000 C CNN
+F 1 "NE555D" H 2200 2240 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 3050 1350 50  0001 C CNN
+	1    2200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 63E87605
+P 1300 2100
+F 0 "C1" H 1392 2146 50  0000 L CNN
+F 1 "10nF" H 1392 2055 50  0000 L CNN
+F 2 "" H 1300 2100 50  0001 C CNN
+F 3 "~" H 1300 2100 50  0001 C CNN
+	1    1300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 63E8760F
+P 2850 1850
+F 0 "R2" H 2909 1896 50  0000 L CNN
+F 1 "4k7" H 2909 1805 50  0000 L CNN
+F 2 "" H 2850 1850 50  0001 C CNN
+F 3 "~" H 2850 1850 50  0001 C CNN
+	1    2850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 63E87619
+P 2550 1350
+F 0 "#PWR02" H 2550 1200 50  0001 C CNN
+F 1 "+5V" H 2565 1523 50  0000 C CNN
+F 2 "" H 2550 1350 50  0001 C CNN
+F 3 "" H 2550 1350 50  0001 C CNN
+	1    2550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 63E87623
+P 2850 2300
+F 0 "#PWR05" H 2850 2050 50  0001 C CNN
+F 1 "GND" H 2855 2127 50  0001 C CNN
+F 2 "" H 2850 2300 50  0001 C CNN
+F 3 "" H 2850 2300 50  0001 C CNN
+	1    2850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 63E8762D
+P 2850 2150
+F 0 "C2" H 2942 2196 50  0000 L CNN
+F 1 "1nF" H 2942 2105 50  0000 L CNN
+F 2 "" H 2850 2150 50  0001 C CNN
+F 3 "~" H 2850 2150 50  0001 C CNN
+	1    2850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 63E87637
+P 2850 1350
+F 0 "R1" H 2909 1396 50  0000 L CNN
+F 1 "4k7" H 2909 1305 50  0000 L CNN
+F 2 "" H 2850 1350 50  0001 C CNN
+F 3 "~" H 2850 1350 50  0001 C CNN
+	1    2850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 63E87641
+P 2200 2300
+F 0 "#PWR04" H 2200 2050 50  0001 C CNN
+F 1 "GND" H 2205 2127 50  0001 C CNN
+F 2 "" H 2200 2300 50  0001 C CNN
+F 3 "" H 2200 2300 50  0001 C CNN
+	1    2200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 63E8764B
+P 1300 2300
+F 0 "#PWR03" H 1300 2050 50  0001 C CNN
+F 1 "GND" H 1305 2127 50  0001 C CNN
+F 2 "" H 1300 2300 50  0001 C CNN
+F 3 "" H 1300 2300 50  0001 C CNN
+	1    1300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2000 1300 1750
+Wire Wire Line
+	1300 1750 1700 1750
+Wire Wire Line
+	1300 2200 1300 2300
+Wire Wire Line
+	2200 1350 2550 1350
+$Comp
+L power:+5V #PWR01
+U 1 1 63E8765D
+P 2850 1200
+F 0 "#PWR01" H 2850 1050 50  0001 C CNN
+F 1 "+5V" H 2865 1373 50  0000 C CNN
+F 2 "" H 2850 1200 50  0001 C CNN
+F 3 "" H 2850 1200 50  0001 C CNN
+	1    2850 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1200 2850 1250
+Wire Wire Line
+	2850 1450 2850 1750
+Wire Wire Line
+	2700 1750 2850 1750
+Connection ~ 2850 1750
+Wire Wire Line
+	2700 1950 2750 1950
+Wire Wire Line
+	2850 2050 2850 1950
+Connection ~ 2850 1950
+Wire Wire Line
+	2850 2250 2850 2300
+Wire Wire Line
+	2200 2150 2200 2300
+Wire Wire Line
+	2750 1950 2750 2450
+Wire Wire Line
+	2750 2450 1600 2450
+Wire Wire Line
+	1600 2450 1600 1550
+Wire Wire Line
+	1600 1550 1700 1550
+Connection ~ 2750 1950
+Wire Wire Line
+	2750 1950 2850 1950
+Text Notes 2000 2600 0    50   ~ 0
+SPI Clock
+Text Notes 1700 4500 0    50   ~ 0
+Time Read Trigger Clock
+Text Notes 1750 6400 0    50   ~ 0
+Display Refresh Clock
+Text HLabel 1300 1550 0    50   Input ~ 0
+SCLK_EN
+Wire Wire Line
+	1300 1550 1500 1550
+Wire Wire Line
+	1500 1550 1500 1950
+Wire Wire Line
+	1500 1950 1700 1950
+$Comp
+L 74xx:74LS08 U4
+U 4 1 63E99D54
+P 4300 2050
+F 0 "U4" H 4300 2375 50  0000 C CNN
+F 1 "74HC08" H 4300 2284 50  0000 C CNN
+F 2 "" H 4300 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4300 2050 50  0001 C CNN
+	4    4300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U5
+U 4 1 63E9D083
+P 5200 2050
+F 0 "U5" H 5200 2367 50  0000 C CNN
+F 1 "74HC14" H 5200 2276 50  0000 C CNN
+F 2 "" H 5200 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5200 2050 50  0001 C CNN
+	4    5200 2050
+	1    0    0    -1  
+$EndComp
+Text HLabel 3800 2150 0    50   Input ~ 0
+SCLK_EN
+Text HLabel 5700 2350 2    50   Output ~ 0
+SCLK
+Text HLabel 5700 2050 2    50   Output ~ 0
+~SCLK
+Text HLabel 5700 1550 2    50   Output ~ 0
+100KHz
+Wire Wire Line
+	2700 1550 3800 1550
+Wire Wire Line
+	3800 1550 3800 1950
+Wire Wire Line
+	3800 1950 4000 1950
+Connection ~ 3800 1550
+Wire Wire Line
+	3800 1550 5700 1550
+Wire Wire Line
+	3800 2150 4000 2150
+Wire Wire Line
+	4600 2050 4750 2050
+Wire Wire Line
+	5500 2050 5700 2050
+Wire Wire Line
+	4750 2050 4750 2350
+Wire Wire Line
+	4750 2350 5700 2350
+Connection ~ 4750 2050
+Wire Wire Line
+	4750 2050 4900 2050
+Text Notes 4150 2800 0    50   ~ 0
+Invert clock for shift registers/counters\nsince data should be stable\non rising edge for DS1302 to read
+$EndSCHEMATC

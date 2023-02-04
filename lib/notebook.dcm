@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CH341A
+D USB Bus Adapter
+K USB Bus Adapter
+F https://datasheet.lcsc.com/lcsc/2008191806_WCH-Jiangsu-Qin-Heng-CH341T_C23971.pdf
+$ENDCMP
+#
+#End Doc Library

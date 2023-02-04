@@ -1,0 +1,337 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Power_Supervisor:TL7705A U6
+U 1 1 63F3DB94
+P 2250 1950
+F 0 "U6" H 2250 2531 50  0000 C CNN
+F 1 "TL7705A" H 2250 2440 50  0000 C CNN
+F 2 "" H 2250 1950 50  0001 C CNN
+F 3 "http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf" H 2250 1950 50  0001 C CNN
+	1    2250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 63F3E50A
+P 1400 2350
+F 0 "C7" H 1492 2396 50  0000 L CNN
+F 1 "100nF" H 1492 2305 50  0000 L CNN
+F 2 "" H 1400 2350 50  0001 C CNN
+F 3 "~" H 1400 2350 50  0001 C CNN
+	1    1400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 63F3E9E9
+P 2900 2350
+F 0 "C8" H 2992 2396 50  0000 L CNN
+F 1 "100nF" H 2992 2305 50  0000 L CNN
+F 2 "" H 2900 2350 50  0001 C CNN
+F 3 "~" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 63F3EB2A
+P 3350 2350
+F 0 "R8" H 3409 2396 50  0000 L CNN
+F 1 "10k" H 3409 2305 50  0000 L CNN
+F 2 "" H 3350 2350 50  0001 C CNN
+F 3 "~" H 3350 2350 50  0001 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 63F3ED71
+P 3350 1600
+F 0 "R7" H 3409 1646 50  0000 L CNN
+F 1 "10k" H 3409 1555 50  0000 L CNN
+F 2 "" H 3350 1600 50  0001 C CNN
+F 3 "~" H 3350 1600 50  0001 C CNN
+	1    3350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR027
+U 1 1 63F3F0BB
+P 3350 1400
+F 0 "#PWR027" H 3350 1250 50  0001 C CNN
+F 1 "+5V" H 3365 1573 50  0000 C CNN
+F 2 "" H 3350 1400 50  0001 C CNN
+F 3 "" H 3350 1400 50  0001 C CNN
+	1    3350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 63F3F534
+P 1400 2550
+F 0 "#PWR029" H 1400 2300 50  0001 C CNN
+F 1 "GND" H 1405 2377 50  0001 C CNN
+F 2 "" H 1400 2550 50  0001 C CNN
+F 3 "" H 1400 2550 50  0001 C CNN
+	1    1400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 63F40291
+P 2250 2550
+F 0 "#PWR030" H 2250 2300 50  0001 C CNN
+F 1 "GND" H 2255 2377 50  0001 C CNN
+F 2 "" H 2250 2550 50  0001 C CNN
+F 3 "" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 63F405AC
+P 2900 2550
+F 0 "#PWR031" H 2900 2300 50  0001 C CNN
+F 1 "GND" H 2905 2377 50  0001 C CNN
+F 2 "" H 2900 2550 50  0001 C CNN
+F 3 "" H 2900 2550 50  0001 C CNN
+	1    2900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 63F40896
+P 3350 2550
+F 0 "#PWR032" H 3350 2300 50  0001 C CNN
+F 1 "GND" H 3355 2377 50  0001 C CNN
+F 2 "" H 3350 2550 50  0001 C CNN
+F 3 "" H 3350 2550 50  0001 C CNN
+	1    3350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR028
+U 1 1 63F40A6F
+P 2650 1550
+F 0 "#PWR028" H 2650 1400 50  0001 C CNN
+F 1 "+5V" H 2665 1723 50  0000 C CNN
+F 2 "" H 2650 1550 50  0001 C CNN
+F 3 "" H 2650 1550 50  0001 C CNN
+	1    2650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1550 2250 1550
+Wire Wire Line
+	2250 1550 1650 1550
+Wire Wire Line
+	1650 1550 1650 1750
+Wire Wire Line
+	1650 1750 1750 1750
+Connection ~ 2250 1550
+Wire Wire Line
+	1650 1750 1650 1950
+Wire Wire Line
+	1650 1950 1750 1950
+Connection ~ 1650 1750
+Wire Wire Line
+	1750 2150 1400 2150
+Wire Wire Line
+	1400 2150 1400 2250
+Wire Wire Line
+	1400 2450 1400 2550
+Wire Wire Line
+	2250 2350 2250 2550
+Wire Wire Line
+	2900 2450 2900 2550
+Wire Wire Line
+	3350 2450 3350 2550
+Wire Wire Line
+	2750 2150 2900 2150
+Wire Wire Line
+	2900 2150 2900 2250
+Wire Wire Line
+	2750 1950 3350 1950
+Wire Wire Line
+	3350 1950 3350 2250
+Wire Wire Line
+	2750 1750 3350 1750
+Wire Wire Line
+	3350 1750 3350 1700
+Wire Wire Line
+	3350 1400 3350 1500
+Text Notes 2600 2850 2    50   ~ 0
+POR Reset 1.3ms
+Text HLabel 3800 1750 2    50   Output ~ 0
+~POR_RESET
+Wire Wire Line
+	3350 1750 3800 1750
+Connection ~ 3350 1750
+$Comp
+L 4xxx:4040 U7
+U 1 1 63F4455E
+P 2300 4550
+F 0 "U7" H 2300 5531 50  0000 C CNN
+F 1 "4040" H 2300 5440 50  0000 C CNN
+F 2 "" H 2300 4550 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf" H 2300 4550 50  0001 C CNN
+	1    2300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U4
+U 1 1 63F451B5
+P 5850 4350
+F 0 "U4" H 5850 4675 50  0000 C CNN
+F 1 "74HC08" H 5850 4584 50  0000 C CNN
+F 2 "" H 5850 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5850 4350 50  0001 C CNN
+	1    5850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U5
+U 5 1 63F46796
+P 6700 4350
+F 0 "U5" H 6700 4667 50  0000 C CNN
+F 1 "74HC14" H 6700 4576 50  0000 C CNN
+F 2 "" H 6700 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 6700 4350 50  0001 C CNN
+	5    6700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U4
+U 2 1 63F4778E
+P 7700 4350
+F 0 "U4" H 7700 4675 50  0000 C CNN
+F 1 "74HC08" H 7700 4584 50  0000 C CNN
+F 2 "" H 7700 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7700 4350 50  0001 C CNN
+	2    7700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U5
+U 6 1 63F48E32
+P 8600 4350
+F 0 "U5" H 8600 4667 50  0000 C CNN
+F 1 "74HC14" H 8600 4576 50  0000 C CNN
+F 2 "" H 8600 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 8600 4350 50  0001 C CNN
+	6    8600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR033
+U 1 1 63F4A1B2
+P 2600 3750
+F 0 "#PWR033" H 2600 3600 50  0001 C CNN
+F 1 "+5V" H 2615 3923 50  0000 C CNN
+F 2 "" H 2600 3750 50  0001 C CNN
+F 3 "" H 2600 3750 50  0001 C CNN
+	1    2600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 63F4A708
+P 2300 5550
+F 0 "#PWR034" H 2300 5300 50  0001 C CNN
+F 1 "GND" H 2305 5377 50  0001 C CNN
+F 2 "" H 2300 5550 50  0001 C CNN
+F 3 "" H 2300 5550 50  0001 C CNN
+	1    2300 5550
+	1    0    0    -1  
+$EndComp
+Text HLabel 1650 4050 0    50   Input ~ 0
+~SCLK
+Text HLabel 1650 4350 0    50   Input ~ 0
+CNT_RST
+Wire Wire Line
+	1650 4050 1800 4050
+Wire Wire Line
+	1650 4350 1800 4350
+Wire Wire Line
+	2300 3750 2600 3750
+Wire Wire Line
+	2300 5450 2300 5550
+NoConn ~ 2800 4150
+NoConn ~ 2800 4250
+NoConn ~ 2800 4450
+NoConn ~ 2800 4550
+NoConn ~ 2800 4750
+NoConn ~ 2800 4850
+NoConn ~ 2800 4950
+NoConn ~ 2800 5050
+NoConn ~ 2800 5150
+Text HLabel 3000 4050 2    50   Output ~ 0
+CNT0
+Text HLabel 3000 4350 2    50   Output ~ 0
+CNT3
+Text HLabel 3000 4650 2    50   Output ~ 0
+CNT6
+Wire Wire Line
+	2800 4050 3000 4050
+Wire Wire Line
+	2800 4350 3000 4350
+Wire Wire Line
+	2800 4650 3000 4650
+Text Notes 2650 5850 2    50   ~ 0
+I/O Bytes Counter
+Text HLabel 5400 4250 0    50   Input ~ 0
+CNT6
+Text HLabel 5400 4450 0    50   Input ~ 0
+CNT3
+Wire Wire Line
+	5400 4450 5550 4450
+Wire Wire Line
+	5400 4250 5550 4250
+Wire Wire Line
+	6150 4350 6400 4350
+Wire Wire Line
+	7000 4350 7100 4350
+Wire Wire Line
+	7100 4350 7100 4250
+Wire Wire Line
+	7100 4250 7400 4250
+Wire Wire Line
+	8000 4350 8150 4350
+Text HLabel 9050 4350 2    50   Output ~ 0
+CNT_RST
+Text HLabel 9050 4700 2    50   Output ~ 0
+~CNT_RST
+Wire Wire Line
+	8900 4350 9050 4350
+Wire Wire Line
+	9050 4700 8150 4700
+Wire Wire Line
+	8150 4700 8150 4350
+Connection ~ 8150 4350
+Wire Wire Line
+	8150 4350 8300 4350
+Text HLabel 6900 4700 0    50   Input ~ 0
+~POR_RESET
+Wire Wire Line
+	6900 4700 7100 4700
+Wire Wire Line
+	7100 4700 7100 4450
+Wire Wire Line
+	7100 4450 7400 4450
+Text Notes 6600 5300 0    50   ~ 0
+Reset Logic\n- Reset on counter reaching 72\n- Reset on POR
+$EndSCHEMATC
